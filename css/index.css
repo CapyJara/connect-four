@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: pink;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: 30px 1fr;
+
+
+}
+
+#players {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: lightblue;
+}
+
+#game-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    background-color: lightgreen;
+    width: 525px;
+    height: 450px;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
